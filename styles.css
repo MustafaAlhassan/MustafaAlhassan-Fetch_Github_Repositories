@@ -9,6 +9,11 @@ body {
   background-color: #f6f6f6;
   margin: auto;
 }
+@media (max-width: 767px) {
+  .repos-container {
+    width: 100%;
+  }
+}
 .repos-container .get-repos {
   padding: 20px;
   display: flex;
